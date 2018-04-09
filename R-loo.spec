@@ -4,17 +4,13 @@
 #
 Name     : R-loo
 Version  : 1.1.0
-Release  : 2
+Release  : 3
 URL      : https://cran.r-project.org/src/contrib/loo_1.1.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/loo_1.1.0.tar.gz
 Summary  : Efficient Leave-One-Out Cross-Validation and WAIC for Bayesian
 Group    : Development/Tools
 License  : GPL-3.0
-Requires: R-evaluate
-Requires: R-markdown
 Requires: R-matrixStats
-BuildRequires : R-evaluate
-BuildRequires : R-markdown
 BuildRequires : R-matrixStats
 BuildRequires : clr-R-helpers
 
@@ -33,11 +29,11 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1521234387
+export SOURCE_DATE_EPOCH=1523314482
 
 %install
 rm -rf %{buildroot}
-export SOURCE_DATE_EPOCH=1521234387
+export SOURCE_DATE_EPOCH=1523314482
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
 export FCFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
