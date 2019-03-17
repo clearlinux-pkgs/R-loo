@@ -1,5 +1,8 @@
 2.1.0
+R-assertthat
 R-checkmate
+R-cli
 R-markdown
 R-matrixStats
+R-withr
 R-yaml
