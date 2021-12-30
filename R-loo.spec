@@ -4,7 +4,7 @@
 #
 Name     : R-loo
 Version  : 2.4.1
-Release  : 44
+Release  : 45
 URL      : https://cran.r-project.org/src/contrib/loo_2.4.1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/loo_2.4.1.tar.gz
 Summary  : Efficient Leave-One-Out Cross-Validation and WAIC for Bayesian
